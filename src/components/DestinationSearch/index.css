@@ -1,0 +1,28 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.output-locations {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-self: center;
+}
+
+input {
+  width: 200px;
+  align-self: center;
+  margin: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
